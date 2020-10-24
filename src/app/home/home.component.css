@@ -1,0 +1,74 @@
+img {
+  width: 100%;
+  position:relative;
+}
+
+.main-page {
+  width: 100%;
+}
+
+.carousel-caption{
+  top: 0;
+  bottom: auto;
+}
+
+h3, p {
+  color: #f64c72;
+}
+.card-title{
+  color: #242582;
+}
+
+div.jumbo {
+  position:absolute;
+  z-index:9999999;
+  margin-top: 150px;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card-body {
+  background-color:#99738e;
+}
+
+.card-header {
+  background-color: #242582;
+  border-color: #242582;
+  color: #f64c72;
+}
+h5{
+  color: #f64c72;
+}
+
+.card-footer {
+  background-color: #242582;
+  border-color: #242582;
+}
+
+.pink {
+  color: #f64c72 !important;
+}
+
+.light-purple {
+  color: #99738e !important;
+}
+
+dark-purple {
+ color: #242582 !important;
+}
+
+.btn-primary {
+  background-color: #242582 !important;
+}
+
+.btn-primary:hover {
+  color: #99738e;
+}
+.btn-primary:active {
+  color: #2f2fa2;
+}
+.btn-primary:visited {
+  color: #99738e;
+}

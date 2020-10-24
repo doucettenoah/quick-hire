@@ -1,0 +1,8 @@
+.navbar-custom {
+    background-color: #242582;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text, .secondaryColor {
+    color: #f64c72;
+}

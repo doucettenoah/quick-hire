@@ -1,0 +1,81 @@
+<div class="main-page">
+  <div class="container">
+    <div class="card text-center jumbo">
+      <div class="card-header">
+        <h1>Search Quick Hire Ottawa</h1>
+      </div>
+      <div class="card-body">
+
+        <div class="form-group">
+          <label for="typeahead-basic"><h5 class="card-title">Where will you work next?</h5></label>
+          <div class="input-group mb-3">
+            <input id="typeahead-basic" type="text" class="form-control" placeholder="Type here to search for jobs"/>
+            <div class="input-group-append">
+              <button class="btn btn-primary"><i class="fa fa-search"></i>&nbsp; Search</button>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn btn-primary">Create account</a>
+      </div>
+      <div class="card-footer">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm"><a href="#" class="fa fa-facebook light-purple"></a></div>
+          <div class="col-sm"><a href="#" class="fa fa-twitter light-purple"></a></div>
+          <div class="col-sm"><a href="#" class="fa fa-reddit light-purple"></a></div>
+          <div class="col-sm"><a href="#" class="fa fa-linkedin light-purple"></a></div>
+          <div class="col-sm-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ngb-carousel *ngIf="homePageImages" [showNavigationIndicators]="false" id="carousel">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="center-fit" [src]="homePageImages[0]" alt="coffee shop">
+      </div>
+      <div class="carousel-caption">
+        <h3>Find a career that works for you</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="homePageImages[1]" alt="construction site">
+      </div>
+      <div class="carousel-caption">
+        <h3>Find a job in any field</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="homePageImages[2]" alt="farmer resting">
+      </div>
+      <div class="carousel-caption">
+        <h3>The easiest way to get your resume seen by employers</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="homePageImages[3]" alt="office work">
+      </div>
+      <div class="carousel-caption">
+        <h3>Hire the best of the best for your company</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="homePageImages[4]" alt="office work">
+      </div>
+      <div class="carousel-caption">
+        <h3>Unparalleled search tools</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+
