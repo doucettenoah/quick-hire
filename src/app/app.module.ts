@@ -8,8 +8,11 @@ import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { HomeComponent } from './home/home.component';
-import { SignInComponent } from './signin/signin.component';
 import { FormsModule } from '@angular/forms';
+import { AboutComponent } from './views/about/about.component';
+import { SignUpComponent } from './views/signin/signup.component';
+import { JobListComponent } from './views/job-list/job-list.component';
+import { JobCreateComponent } from './views/job-create/job-create.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SignInComponent
+    AboutComponent,
+    SignUpComponent,
+    JobListComponent,
+    JobCreateComponent
   ],
   imports: [
     BrowserModule,

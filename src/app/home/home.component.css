@@ -38,6 +38,7 @@ div.jumbo {
   border-color: #242582;
   color: #f64c72;
 }
+
 h5{
   color: #f64c72;
 }
@@ -66,9 +67,11 @@ dark-purple {
 .btn-primary:hover {
   color: #99738e;
 }
+
 .btn-primary:active {
   color: #2f2fa2;
 }
+
 .btn-primary:visited {
   color: #99738e;
 }

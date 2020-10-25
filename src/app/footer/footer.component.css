@@ -10,3 +10,22 @@ footer {
 .footer-text {
   color:#f64c72;
 }
+.btn-primary {
+  background-color: #99738e !important;
+}
+
+.btn-primary:hover {
+  color: #f64c72;
+}
+
+.btn-primary:active {
+  color: #2f2fa2;
+}
+
+.btn-primary:visited {
+  color: #99738e;
+}
+
+i {
+  color: #2f2fa2;
+}
