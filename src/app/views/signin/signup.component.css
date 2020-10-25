@@ -2,10 +2,14 @@
 margin-top: 50px;
 margin-bottom: auto;
 background-color: #242582;
+width: 24rem;
 }
 
 h3, h5, p {
   color: #f64c72;
+}
+.signup-type {
+  color: #99738e;
 }
 
 .btn-primary {

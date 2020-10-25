@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignUpComponent implements OnInit {
-
+  public userType: number;
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
-
 }

@@ -7,6 +7,10 @@ export class UserService {
 
   constructor() { }
 
+  // login
+
+  // signup
+
   // get all users
 
   // get one specific user
